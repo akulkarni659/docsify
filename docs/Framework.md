@@ -22,7 +22,7 @@ Note: BeforeTest & AfterTest are executed with each Test, but beforeSuite & afte
 
 Below is flow of execution
 
-![flow of event](_images/flow_of_event.png)
+![flow of event](./images/flow_of_event.png)
 
 ## Configuring Test
 
