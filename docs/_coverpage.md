@@ -1,4 +1,6 @@
-![logo](_media/invent_logo.png)
+<!-- _coverpage.md -->
+
+![logo](./media/invent_logo.png)
 
 # VTV InVent
 

@@ -3,16 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>VTV InVent</title>
-    <link rel="icon" href="_media/vodafone.png" />
+    <link rel="icon" href="./media/vodafone.png" />
     <meta
       name="google-site-verification"
       content="6t0LoIeFksrjF4c9sqUEsVXiQNxLp2hgoqo0KryT-sE"
     />
     <meta
       name="keywords"
-      content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages"
+      content="doc,docs,github,jekyll,github-pages"
     />
-    <meta name="description" content="A magical documentation generator." />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
@@ -21,30 +20,6 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
       title="vue"
-    />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css"
-      title="dark"
-      disabled
-    />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css"
-      title="buble"
-      disabled
-    />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/pure.css"
-      title="pure"
-      disabled
-    />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dolphin.css"
-      title="dolphin"
-      disabled
     />
     <style>
       nav.app-nav li ul {
@@ -65,10 +40,9 @@
       // Docsify configuration
       window.$docsify = {
         alias: {
-			'/.*/_sidebar.md': '/_sidebar.md',
-			'/.*/_coverpage.md': '/_coverpage.md',
-			'/.*/_navbar.md': '/_navbar.md',
-			'/.*/_media': '/_media'
+			'./_sidebar.md': '/_sidebar.md',
+			'./_coverpage.md': '/_coverpage.md',
+			'./_navbar.md': '/_navbar.md',
 		},
         auto2top: true,
         coverpage: true,
@@ -100,6 +74,5 @@
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
-	<script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   </body>
 </html>
